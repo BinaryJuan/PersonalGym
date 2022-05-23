@@ -1,0 +1,397 @@
+/* _____RESET_____ */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* _____ESTILOS_____ */
+html {
+  background-color: #000000;
+  scroll-behavior: smooth;
+  font-family: 'Roboto';
+}
+
+.navbar {
+  text-align: center;
+  z-index: 999;
+}
+
+.navbarUl {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 35px;
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.navbarUl a {
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: .8;
+  margin: 5px;
+  user-select: none;
+}
+
+.navbarUl a:hover {
+  opacity: 1;
+}
+
+.introContainer {
+  margin-bottom: 200px;
+}
+
+.intro {
+  position: relative;
+  background-image: url(../media/background-intro.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 50vw;
+  margin-top: 60px;
+}
+
+.introText {
+  position: absolute;
+  right: 18vw;
+  top: 5vw;
+  font-size: 3vw;
+  color: #FFFFFF;
+  font-weight: bold;
+  user-select: none;
+}
+
+.span {
+  color: #FF0000;
+}
+
+.introImg {
+  text-align: center;
+}
+
+.introImg img {
+  width: 23vw;
+}
+
+.divLine {
+  height: 8px;
+  background-color: #FF0000;
+  border-radius: 1rem;
+  width: 25%;
+  margin: 20px auto 10px auto;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: white;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #c50000;
+  padding: 20px;
+  border-radius: 1rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  user-select: none;
+}
+
+.w50p {
+  width: 50%;
+  font-weight: lighter;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mt300 {
+  margin-top: 300px;
+}
+
+.subtitleLighter {
+  font-size: 1.5rem;
+  color: white;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.servicesFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.sflexElement {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+i {
+  color: #FF0000;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+i:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.listStyles {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.listStyles li {
+  margin-bottom: 10px;
+}
+
+.fw-b {
+  font-weight: 400;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: white;
+  background-color: #c50000;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.contactFlex {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  margin: 15px auto;
+  flex-wrap: wrap;
+}
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.victoria-one {
+	border: 2px solid #FF0000;
+  width: 150px;
+  border-radius: 1rem;
+  position: fixed;
+  top: 90%;
+  right: 3%;
+  opacity: .7;
+  z-index: 999;
+}
+
+a.animated-button.victoria-one:hover {
+  opacity: 1;
+}
+
+a.animated-button.victoria-one:after {
+	background: #FF0000;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+.horarios {
+  font-size: 1.2rem;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .navbarUl {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .subtitleLighter {
+    width: 40%;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .navbarUl {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    width: 60%;
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .subtitleLighter {
+    width: 60%;
+    font-size: 1.3rem;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbarUl {
+    font-size: 1rem;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .introText {
+    display: none;
+  }
+
+  .introImg img {
+    width: 70vw;
+    margin: 50px 0;
+  }
+
+  .divLine {
+    display: none;
+  }
+
+  .text {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+    width: 50%;
+  }
+
+  .subtitleLighter {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .mt300 {
+    margin-top: 120px;
+  }
+
+  .servicesFlex {
+    display: block;
+    width: 100%;
+  }
+
+  .sflexElement {
+    margin: 20px auto;
+  }
+
+  i {
+    font-size: 2.8rem;
+  }
+
+  .contactFlex {
+    width: 80%;
+  }
+}
