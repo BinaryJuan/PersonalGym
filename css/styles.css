@@ -10,6 +10,10 @@ html {
   font-family: 'Roboto';
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   text-align: center;
   z-index: 999;
@@ -80,6 +84,30 @@ html {
   border-radius: 1rem;
   width: 25%;
   margin: 20px auto 10px auto;
+}
+
+.buttonContainer {
+  position: relative;
+}
+
+.btnPhoneContainer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btnPhone {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid #c50000;
+  padding: 10px 25px;
+  border-radius: .5rem;
+  display: none;
+}
+
+.btnPhone:hover {
+  background-color: #c50000;
 }
 
 .text {
@@ -264,7 +292,7 @@ a.animated-button.victoria-one {
   border-radius: 1rem;
   position: fixed;
   top: 90%;
-  right: 3%;
+  right: 5%;
   opacity: .7;
   z-index: 999;
 }
@@ -335,6 +363,16 @@ a.animated-button.victoria-one:after {
   i {
     font-size: 3rem;
   }
+
+  a.animated-button.victoria-one {
+    display: none;
+  }
+
+  .btnPhone {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -393,5 +431,15 @@ a.animated-button.victoria-one:after {
 
   .contactFlex {
     width: 80%;
+  }
+
+  a.animated-button.victoria-one {
+    display: none;
+  }
+
+  .btnPhone {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
   }
 }
