@@ -118,6 +118,19 @@ body {
   margin: 0 auto;
 }
 
+.exBox {
+  color: white;
+  width: fit-content;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  font-size: 1.2rem;
+  background-color: #c50000;
+  padding: 15px;
+  border-radius: .6rem;
+  user-select: none;
+  animation: pulse 2s infinite;
+}
+
 .subtitle {
   font-size: 1.8rem;
   color: white;
@@ -132,8 +145,20 @@ body {
   user-select: none;
 }
 
+.subtitleMinor {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  margin: 20px 0 15px 0;
+}
+
 .w50p {
   width: 50%;
+  font-weight: lighter;
+}
+
+.w40p {
+  width: 40%;
   font-weight: lighter;
 }
 
@@ -143,6 +168,15 @@ body {
 
 .mt300 {
   margin-top: 300px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.masters {
+  border: 1px solid red;
+  padding: 20px 10px;
 }
 
 .subtitleLighter {
@@ -317,8 +351,21 @@ a.animated-button.victoria-one:after {
   margin-bottom: 60px;
 }
 
+/* KEYFRAMES */
+@keyframes pulse {
+  0% {transform: scale(1.1, 1.1);}
+  50% {transform: scale(1, 1);}
+  100% {transform: scale(1.1, 1.1);}
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 600px) and (max-width: 1024px) {
+  html {
+    background-color: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Roboto';
+  }
+
   .navbarUl {
     font-size: 1.2rem;
   }
@@ -342,6 +389,12 @@ a.animated-button.victoria-one:after {
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
+  html {
+    background-color: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Roboto';
+  }
+
   .navbarUl {
     font-size: 1.2rem;
   }
@@ -376,6 +429,12 @@ a.animated-button.victoria-one:after {
 }
 
 @media (max-width: 500px) {
+  html {
+    background-color: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Roboto';
+  }
+
   .navbarUl {
     font-size: 1rem;
   }
