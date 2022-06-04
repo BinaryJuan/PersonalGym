@@ -501,4 +501,9 @@ a.animated-button.victoria-one:after {
     width: 30%;
     margin: 0 auto;
   }
+
+  .exBox {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }
