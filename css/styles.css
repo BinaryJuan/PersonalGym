@@ -24,6 +24,7 @@ body {
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 35px;
+  list-style: none;
   width: 50%;
   display: inline-flex;
   justify-content: space-around;
@@ -48,17 +49,18 @@ body {
 
 .intro {
   position: relative;
-  background-image: url(../media/background-intro.png);
+  background-image: url(../media/portada.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   height: 50vw;
   margin-top: 60px;
+  margin-bottom: 80px;
 }
 
 .introText {
   position: absolute;
-  right: 18vw;
+  right: 16vw;
   top: 5vw;
   font-size: 3vw;
   color: #FFFFFF;
@@ -118,6 +120,12 @@ body {
   margin: 0 auto;
 }
 
+.serviciosList {
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 .exBox {
   color: white;
   width: fit-content;
@@ -129,6 +137,7 @@ body {
   border-radius: .6rem;
   user-select: none;
   animation: pulse 2s infinite;
+  font-weight: bold;
 }
 
 .subtitle {
@@ -152,9 +161,21 @@ body {
   margin: 20px 0 15px 0;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .w50p {
   width: 50%;
   font-weight: lighter;
+}
+
+.w75p {
+  width: 75%;
+}
+
+.w100p {
+  width: 100%;
 }
 
 .w40p {
