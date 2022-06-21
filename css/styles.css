@@ -289,7 +289,7 @@ i:hover {
 
 .contactFlex {
   display: flex;
-  width: 25%;
+  width: 35%;
   justify-content: space-between;
   margin: 15px auto;
   flex-wrap: wrap;
@@ -391,6 +391,16 @@ a.animated-button.victoria-one:after {
   margin-bottom: 60px;
 }
 
+.flexColumn {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 /* KEYFRAMES */
 @keyframes pulse {
   0% {transform: scale(1.1, 1.1);}
@@ -425,6 +435,15 @@ a.animated-button.victoria-one:after {
 
   i {
     font-size: 3rem;
+  }
+
+  .contactFlex {
+    width: 80%;
+    display: block;
+  }
+
+  .flexColumn {
+    margin: 35px 0;
   }
 }
 
@@ -465,6 +484,15 @@ a.animated-button.victoria-one:after {
     display: block;
     width: 30%;
     margin: 0 auto;
+  }
+
+  .contactFlex {
+    width: 80%;
+    display: block;
+  }
+
+  .flexColumn {
+    margin: 50px 0;
   }
 }
 
@@ -526,6 +554,11 @@ a.animated-button.victoria-one:after {
 
   .contactFlex {
     width: 80%;
+    display: block;
+  }
+
+  .flexColumn {
+    margin: 50px 0;
   }
 
   a.animated-button.victoria-one {
