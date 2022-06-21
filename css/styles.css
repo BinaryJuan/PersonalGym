@@ -126,6 +126,11 @@ body {
   font-size: 1.3rem;
 }
 
+.imgTitulo {
+  width: 100%;
+  text-align: center;
+}
+
 .exBox {
   color: white;
   width: fit-content;
@@ -536,5 +541,9 @@ a.animated-button.victoria-one:after {
   .exBox {
     font-size: 1rem;
     padding: 10px;
+  }
+
+  .imgTitulo {
+    width: 80%;
   }
 }
