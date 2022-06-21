@@ -503,8 +503,16 @@ a.animated-button.victoria-one:after {
     font-family: 'Roboto';
   }
 
+  .introContainer {
+    margin-bottom: 90px;
+  }
+
   .navbarUl {
     font-size: 1rem;
+  }
+
+  .intro {
+    margin-bottom: 20px;
   }
 
   .introText {
@@ -536,7 +544,15 @@ a.animated-button.victoria-one:after {
   }
 
   .mt300 {
-    margin-top: 120px;
+    margin-top: 80px;
+  }
+
+  .mb50 {
+    margin-bottom: 0px;
+  }
+
+  .servicesFlex .sflexElement {
+    margin-top: 0;
   }
 
   .servicesFlex {
@@ -578,5 +594,13 @@ a.animated-button.victoria-one:after {
 
   .imgTitulo {
     width: 80%;
+  }
+
+  .btnPhoneContainer {
+    margin: 30px;
+  }
+
+  .mbMasters {
+    margin-bottom: 30px;
   }
 }
