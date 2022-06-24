@@ -507,11 +507,16 @@ a.animated-button.victoria-one:after {
     margin-bottom: 90px;
   }
 
+  .navbar {
+    margin-top: 70px;
+  }
+
   .navbarUl {
     font-size: 1rem;
   }
 
   .intro {
+    margin-top: 5px;
     margin-bottom: 20px;
   }
 
@@ -544,7 +549,11 @@ a.animated-button.victoria-one:after {
   }
 
   .mt300 {
-    margin-top: 80px;
+    margin-top: 30px;
+  }
+
+  .mt50 {
+    margin-top: 10px;
   }
 
   .mb50 {
@@ -552,7 +561,8 @@ a.animated-button.victoria-one:after {
   }
 
   .servicesFlex .sflexElement {
-    margin-top: 0;
+    margin-top: 15px;
+    height: auto;
   }
 
   .servicesFlex {
@@ -597,7 +607,7 @@ a.animated-button.victoria-one:after {
   }
 
   .btnPhoneContainer {
-    margin: 30px;
+    margin: 20px;
   }
 
   .mbMasters {
